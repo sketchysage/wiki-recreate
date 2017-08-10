@@ -1,6 +1,136 @@
-#main{
-  float: left;
-  max-width: 50%;
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+    width: 100%;
+}
+body {
+  background: linear-gradient(#fff, #efefef, #efefef, #efefef);
+}
+
+#sidebar {
+  background-color: #efefef;
+
+}
+#main {
+  background-color: #fff;
+  margin-top: 50px;
+  border: solid thin #8cb3f2;
+}
+#welcome {
+  padding: 0px 25px;
+  margin-top: 25px;
+}
+#green {
+  padding: 5px 5px 5px 25px;
+
+}
+#blue {
+  padding: 5px 25px 5px 5px;
+
+}
+#purple {
+  padding: 5px 25px;
+
+}
+#bottom {
+  padding: 5px 25px;
+
+}
+.col-md-10, .col-md-5, .col-md-2, .col-md-1 {
+  padding: 0;
+  margin: 0;
+}
+#sidebar img {
   padding-left: 20px;
-  padding-top: 10px;
+  width: 50%;
+}
+
+#sidebar ul {
+  text-decoration: none;
+  list-style: none;
+
+}
+ li {
+   padding-left: 12px;
+ }
+
+ #sidebar li {
+   padding-left: 25px;
+ }
+
+ a {
+   color: #0441a3;
+   text-decoration: none;
+ }
+
+#sidebar hr {
+    border: 0;
+    height: 1px;
+    margin: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+}
+#sidebar p{
+  padding-left: 15px;
+  margin-bottom: 2px;
+}
+.welcomelinks {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.panel {
+  border-radius: 0px;
+
+
+}
+.greenpanelhead {
+  margin: 8px;
+  border: solid thin #41af72;
+  background-color: #98e2c7;
+}
+.greenpanelbody {
+  background-color: #ddffec;
+  border: solid thin #70bfa2;
+  list-style-position: inside;
+}
+
+#green img {
+  padding: 0px 10px 10px 0px;
+}
+
+
+.bluepanelhead {
+  margin: 8px;
+  border: solid thin #2f7bd8;
+  background-color: #8fb7e8;
+}
+.bluepanelbody {
+  background-color: #d2e0f2;
+  border: solid thin #2f7bd8;
+  list-style-position: inside;
+}
+#blue img {
+  padding: 0px 10px 10px 0px;
+}
+
+.purplepanelhead {
+  margin: 8px;
+  border: solid thin #aa6dce;
+  background-color: #c4a7d6;
+}
+.purplepanelbody {
+  background-color: #f1defc;
+  border: solid thin #aa6dce;
+  list-style-position: inside;
+}
+#purple img {
+  padding: 0px 10px 10px 0px;
+  display:block;
+  margin: 0 auto;
+}
+
+#purple p {
+  text-align: center;
 }
